@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Averts-Regular';
+  src: url('styles/fonts/Intelligent Design - AvertaStd-Regular.otf') format('opentype');
+}
+
+main{
+  margin:0 auto;
+  display:flex;
+  width: 700px;
+  box-sizing:border-box;
+  font-family: 'Averta-Regular',sans-serif;
+}

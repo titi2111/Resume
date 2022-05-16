@@ -1,0 +1,86 @@
+#right-side{
+    background-color: #F8F8F8;
+    width:50%;
+    padding:24px;
+    h3{
+        font-size:15px;
+        font-weight: bold;
+    }
+    svg{
+        
+       float:right;
+       margin: 12 0 0;
+        
+    }
+    h1{
+        font-weight: 100;
+        margin-top:110px;
+        font-size: 32px;
+    }
+    p{
+        span{
+            background-color: #363535;
+            padding:3px 15px;
+            color:white;
+            font-size: 12px;
+            
+        }
+    }
+    #skills{
+        position:relative;
+        h2{
+            font-size:15px;
+            font-weight: bold;
+        }
+         ul > li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size:12px;
+            margin-top: 4px;
+        }
+        .lista{
+            ul{
+            list-style-type: none;
+            }
+           
+        }
+        ul{
+            padding:0px;
+        }
+        .dots-wrapper{
+            display:flex;
+            li{
+                list-style-type: none;
+                width:10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: lightgray;
+                margin-right: 6px;
+                color: #c2c2c2;
+                &.selected-dots-skill{
+                    background-color: #585558;
+                }
+            }
+        }
+       
+       .section-counter{
+           left:-34px;
+           position:absolute;
+          float: left;
+           color:white;
+           
+           span{
+               position: absolute;
+               left:3px;
+               font-size:14px;
+           }
+    
+       }
+       .text{
+           font-size: 14px;
+       }
+    
+    }
+    
+}
